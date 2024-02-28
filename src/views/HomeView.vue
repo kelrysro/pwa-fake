@@ -1,8 +1,9 @@
 <script setup>
+import ListagemProdutos from '@/components/ListagemProdutos.vue';
+import MenuSuperior from '@/components/MenuSuperior.vue';
 </script>
 
 <template>
-  <main>
-    <h1>Kelry Boboca</h1>
-  </main>
+  <MenuSuperior />
+  <ListagemProdutos />
 </template>
